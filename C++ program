@@ -15,9 +15,12 @@ int main()
  
     cout<<"\nEnter second Number : ";
     cin>>num2;
+    
+    cout<<"\nEnter third Number : ";
+    cin>>num3;
  
     //to add two number
-    result=num1+num2;
+    result=num1+num2+num3;
  
     //display addition
     cout<<"\nAddition is : "<<result;
